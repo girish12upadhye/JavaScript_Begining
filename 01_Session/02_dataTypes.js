@@ -12,14 +12,14 @@ let isLoggedIn = false;
 let state;
 let student = null;
 
-Number => 2 to power 53
-BigInt 
-String => ''/""
-Boolean => false/true
-null => standalone value
-undefined =>
-Symbol => unique
-Object
+// Number => 2 to power 53
+// BigInt 
+// String => ''/""
+// Boolean => false/true
+// null => standalone value
+// undefined =>
+// Symbol => unique
+// Object
 
 console.log(typeof userName)
 console.log(typeof age)
