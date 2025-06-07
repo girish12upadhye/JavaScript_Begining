@@ -29,7 +29,7 @@
 			],
 			"settings": {
 				"editor.fontSize": 24,
-				"terminal.integrated.fontSize": 2,
+				"terminal.integrated.fontSize": 16,
 				"editor.wordWrap": "on"
 			}
 			
