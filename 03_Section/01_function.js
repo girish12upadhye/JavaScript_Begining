@@ -38,5 +38,33 @@ function loginUserMessage(username){
 }
 
 // let result = loginUserMessage("Prachi") 
-let result = loginUserMessage() 
-console.log(result);
+// let result = loginUserMessage() 
+// console.log(result);
+
+function calculateCartPrice(...num1){
+    let sum = 0;
+    console.log(typeof num1[0]);
+    
+    for(let i of num1){
+        sum = sum + i
+    }
+    return sum;
+}
+
+// console.log(calculateCartPrice(98, 423, 200));
+
+const user = {
+    name : "Girish",
+    prices : 799
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.name}, and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+
+handleObject({
+    name : "Varun",
+    price : 899
+})
